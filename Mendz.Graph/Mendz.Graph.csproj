@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Mendz</Authors>
+    <Company>Mendz</Company>
+    <Copyright>© 2017 Mendz. All rights reserved.</Copyright>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/etmendz/Mendz.Graph</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/etmendz/Mendz.Graph</RepositoryUrl>
+    <PackageTags>graph-theory vertex edge graph dot</PackageTags>
+    <Description>Provides an implementation of Graph Theory graph G = (V, E), that can generate its DOT notation, which can be used for rendering the graph.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
 </Project>
