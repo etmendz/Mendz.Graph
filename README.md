@@ -5,7 +5,7 @@ Provides an implementation of Graph Theory graph G = (V, E), that can generate i
 #### Contents
 Name | Description
 ---- | -----------
-Vertex | Represents a vertex (Graph Theory.
+Vertex | Represents a vertex (Graph Theory).
 Edge | Represents an edge (Graph Theory).
 Graph | Represents a graph (Graph Theory).
 DOTFormatProvider | Represents a DOT notation format provider.
