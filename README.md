@@ -9,7 +9,7 @@ Vertex | Represents a vertex (Graph Theory).
 Edge | Represents an edge (Graph Theory).
 Graph | Represents a graph (Graph Theory).
 DOTFormatProvider | Represents a DOT notation format provider.
-DOTFormatter | Rpresents a DOT notation formatter.
+DOTFormatter | Represents a DOT notation formatter.
 #### Vertex
 The vertex is a fundamental unit in a graph. It is also known as the node.
 In its most basic sense, a vertex is simply a value.
