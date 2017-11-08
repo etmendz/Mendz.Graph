@@ -1,5 +1,7 @@
 # Mendz.Graph
 Provides an implementation of Graph Theory graph G = (V, E), that can generate its DOT notation, which can be used for rendering the graph. [Wiki](https://github.com/etmendz/Mendz.Graph/wiki)
+## Implementation
+- [Mendz.Graph.Representation](https://github.com/etmendz/Mendz.Graph.Representation)
 ## Namespaces
 ### Mendz.Graph
 #### Contents
